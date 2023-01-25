@@ -1,10 +1,11 @@
 function isPalindrome(word) {
   // Write your algorithm here
-  const palArr = []
-  for (i=word.length-1;i>=0;i--){
-    palArr.push(word[i]);
-  }
-  return palArr.join('') === word;
+  // const palArr = []
+  // for (i=word.length-1;i>=0;i--){
+  //   palArr.push(word[i]);
+  // // }
+  // return palArr.join('') === word;
+  return word.split('').reverse().join('') === word;
 }
 
 /* 
