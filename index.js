@@ -1,11 +1,17 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const palArr = []
+  for (i=word.length-1;i>=0;i--){
+    palArr.push(word[i]);
+  }
+  return palArr.join('') === word;
 }
 
 /* 
   Add your pseudocode here
 */
-
+  // a constant is equal to a blank array
+  // 
 /*
   Add written explanation of your solution here
 */
